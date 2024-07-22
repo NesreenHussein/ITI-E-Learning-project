@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\E-Learning ( Summer Courses).props" />
+</Project>

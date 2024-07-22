@@ -1,0 +1,48 @@
+﻿@model Subject
+<h1 class="alert alert-success text-center">Edit Subject</h1>
+<div class="row">
+    <form class="col-4" method="post" asp-controller="Subjects" asp-action="EditCurrent">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id">
+        <div>
+            <lable asp-for="Name">Name</lable>
+            <input type="text" asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="Description">Description</lable>
+            <input type="text" asp-for="Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="RegistrationAmount">Registration Amount</lable>
+            <input type="number" asp-for="RegistrationAmount" class="form-control" />
+            <span asp-validation-for="RegistrationAmount" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="StartDate">Start Date</lable>
+            <input asp-for="StartDate" class="form-control" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="EndDate">End Date</lable>
+            <input asp-for="EndDate" class="form-control" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="CreditHours">Credit Hours</lable>
+            <input asp-for="CreditHours" class="form-control" />
+            <span asp-validation-for="CreditHours" class="text-danger"></span>
+        </div>
+        <div>
+            <lable asp-for="IsActive">Is Active</lable>
+            <input asp-for="IsActive" />
+            <span asp-validation-for="IsActive" class="text-danger"></span>
+        </div>
+        
+
+        <button type="submit" class="btn btn-primary mt-2">Edit</button>
+
+    </form>
+</div>
+<a asp-controller="Subjects" asp-action="GetIndexView"></a>

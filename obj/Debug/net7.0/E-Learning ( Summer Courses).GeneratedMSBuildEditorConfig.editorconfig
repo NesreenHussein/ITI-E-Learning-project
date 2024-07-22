@@ -1,0 +1,98 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = E_Learning___Summer_Courses_
+build_property.RootNamespace = E_Learning___Summer_Courses_
+build_property.ProjectDir = C:\Users\nesre\source\repos\E-Learning ( Summer Courses)\E-Learning ( Summer Courses)\
+build_property.EnableComHosting = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\nesre\source\repos\E-Learning ( Summer Courses)\E-Learning ( Summer Courses)
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Shared/_TScontact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UU2NvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Students/_StudentsData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcX1N0dWRlbnRzRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Subjects/_SubjectsData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcX1N1YmplY3RzRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nesre/source/repos/E-Learning ( Summer Courses)/E-Learning ( Summer Courses)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fp127uq3yw

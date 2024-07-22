@@ -1,0 +1,18 @@
+﻿@model Subject 
+<h1 class="alert alert-warning">@Model.Name Details</h1>
+
+<partial name="_SubjectsData" />
+
+<ul class=" col-4 list-group">
+    <li class="list-group-item active">Students</li>
+    @foreach (var employee in Model.Students)
+    {
+        <a asp-controller="Students" asp-action="GetDetailsView" asp-route-id="@employee.Id" style="text-decoration:none">
+        <li class="list-group-item  list-group-item-action">
+                @employee.FullName (@employee.StudentDepartment)
+        </li>
+        </a>
+    }
+</ul>
+
+<a asp-controller="Subjects" asp-action="GetIndexView">Back To List</a>

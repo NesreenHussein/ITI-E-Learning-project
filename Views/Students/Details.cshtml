@@ -1,0 +1,5 @@
+﻿@model Student
+<h1 class="alert alert-warning">@Model.FullName Details</h1>
+
+<partial name="_StudentsData" />
+<a asp-controller="Students" asp-action="GetIndexView">Back To List</a>

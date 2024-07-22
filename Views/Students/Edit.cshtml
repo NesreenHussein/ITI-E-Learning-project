@@ -1,0 +1,47 @@
+﻿@model Student
+
+<h1 class="alert alert-success text-center">Edit Student</h1>
+
+<div class="row">
+    <form class="col-4" method="post" asp-controller="Students" asp-action="EditCurrent">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id">
+        <div class="mb-2">
+            <lable asp-for="FullName">FullName</lable>
+            <input type="text" asp-for="FullName" class="form-control" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <lable asp-for="StudentDepartment">Student Department</lable>
+            <input type="text" asp-for="StudentDepartment" class="form-control" />
+            <span asp-validation-for="StudentDepartment" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <lable asp-for="StudentAccount">StudentAccount </lable>
+            <input type="text" asp-for="StudentAccount" class="form-control" />
+            <span asp-validation-for="StudentAccount" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <lable asp-for="StudentPhoneNumber">Student Phone Number</lable>
+            <input asp-for="StudentPhoneNumber" class="form-control" />
+            <span asp-validation-for="StudentPhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <lable asp-for="StudentLevel">Student Level</lable>
+            <input type="number" asp-for="StudentLevel" class="form-control" />
+            <span asp-validation-for="StudentLevel" class="text-danger"></span>
+        </div>
+        <div class="mb-2">
+            <label asp-for="SubjectId"></label>
+            <select asp-for="SubjectId" asp-items="@(new SelectList(ViewBag.AllSubjects,"Id","Name"))" class="form-control">
+                <option selected disabled>select....</option>
+            </select>
+            <span asp-validation-for="SubjectId" class="text-danger"></span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary mt-2">Edit</button>
+
+    </form>
+</div>
+<a asp-controller="Students" asp-action="GetIndexView"></a>
